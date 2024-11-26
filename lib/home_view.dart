@@ -71,7 +71,6 @@ class HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
           : Container(
